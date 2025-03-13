@@ -1,0 +1,117 @@
+h1 {
+    background: linear-gradient(180deg, var(--themeht-primary-color2) 60%, var( --themeht-primary-color) 64%, var( --themeht-primary-color3) 66%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+/*----------------
+    modal certificazioni
+------------------*/
+
+
+.modal-img {
+    max-width: 100%; /* Assicura che l'immagine non esca dai bordi del modal */
+    height: auto; /* Mantieni le proporzioni dell'immagine */
+    margin-left: 20px;
+    
+  }
+
+.modal-body {
+    max-height: 80vh; /* Imposta l'altezza massima a 80% della finestra */
+    overflow-y: auto; /* Consente lo scroll solo nel contenuto */
+    
+    
+}
+
+/* Nascondi la barra di scorrimento in Webkit (Chrome, Safari, Edge) */
+.modal-body::-webkit-scrollbar {
+    width: 0px; /* Impedisce che la scrollbar venga visualizzata */
+    background: transparent; /* Impedisce lo sfondo della scrollbar */
+  }
+  
+/* La scrollbar per i browser che non usano Webkit */
+.modal-body {
+scrollbar-width: thin; /* Imposta la scrollbar sottile (per Firefox) */
+scrollbar-color: transparent transparent; /* Nasconde la scrollbar (per Firefox) */
+}
+
+
+/* Centra il modal orizzontalmente e verticalmente */
+.modal-dialog {
+    margin: auto; /* Centra il modal orizzontalmente */
+    max-width: 90%; /* Imposta una larghezza massima per il modal (modifica se necessario) */
+    margin-top: 5vh;
+  }
+  
+  /* Centra correttamente la finestra */
+.modal-dialog-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+
+.view-cert {
+    
+    margin-top: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #2b86c7;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
+    
+}
+
+.view-cert:hover {
+    background-color: #ef781a;
+}
+
+.view-cert2 {
+    
+    margin-top: 43px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #2b86c7;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
+    
+}
+
+.view-cert2:hover {
+    background-color: #ef781a;
+}
+
+/*--------------------------
+       botone preventivo
+---------------------------*/
+
+#preventivo {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+
+  .image-container img {
+    margin-top: -300px;
+    margin-right: -600px;
+  }
